@@ -1,6 +1,6 @@
 # Installing Homebrew
 1. $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-2. <!-- $ brew install wget
+2. <!-- $ brew install wget -->
 
 # Setting up AWS CLI
 1. $ curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
