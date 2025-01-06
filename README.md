@@ -1,6 +1,6 @@
 # Installing Homebrew
 1. $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-2. $ brew install wget
+2. <!-- $ brew install wget
 
 # Setting up AWS CLI
 1. $ curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
@@ -14,3 +14,12 @@
 # Setting up Terraform
 1. $ brew tap hashicorp/tap
 2. $ brew install hashicorp/tap/terraform
+
+# Installing EKS CTL
+1. $ brew install eksctl
+
+
+# Running Application
+1. $ terraform init
+2. $ terraform plan
+3. $ terraform apply
